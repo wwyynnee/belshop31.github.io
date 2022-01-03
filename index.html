@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f90" />
+    <meta
+      name="description"
+      content="Интернет-магазин электроники в Белгороде"
+    />
+    <link
+      rel="canonical"
+      href="https://www.belshop31.tk"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148%2Ficon.png?v=1636788385830"
+    />
+    <link
+      rel="icon"
+      href="https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148%2Ficon.png?v=1636788385830"
+      type="image/png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css"
+    />
+    <link rel="stylesheet" href="assets/index/css/section.css" />
+    <link rel="stylesheet" href="assets/index/css/slider.css" />
+    <link rel="stylesheet" href="assets/index/css/header.css" />
+    <link rel="stylesheet" href="assets/index/css/style.css" />
+    <link rel="stylesheet" href="assets/index/css/goods.css" />
+    <link rel="stylesheet" href="assets/index/css/nav.css" />
+    <link rel="stylesheet" href="assets/index/css/cat.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
+    <script data-ad-client="ca-pub-7868406219201402" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <title>Belshop31</title>
+  </head>
+  <body>
+    <div class="web">
+      <header class="panel">
+        <a href="#"><div class="shop"></div></a>
+        <div class="phone">
+          <div class="phonesvg" onclick="copy()">
+            <button class="svg"></button>
+            <p id="tel">+79103684960</p>
+          </div>
+        </div>
+        <a href="signin.html"><div class="sign">Войти</div></a>
+      </header>
+      <section class="service">
+        <div class="catalog" id="catalog" onclick="opennav()">Каталог ▾</div>
+        <div class="catalog2" id="catalog2" onclick="closenav()">Каталог ▾</div>
+        <a href="gd.html"><div class="gd">б/у товары</div></a>
+        <a href="disposal.html"><div class="disposal">Услуги</div></a>
+        <a href="https://forms.gle/vWH6J9tzSueJAwx87" target="_blank"><div class="buyup">Скупка</div></a>
+      </section>
+    </div>
+    <main class="belslider">
+      <div class="imgslider" id="belslider">
+        <div class="img1">
+          <a href="#">
+            <img
+              src="https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148%2F%D0%91%D0%B0%D0%BD%D0%BD%D0%B5%D1%80.png?v=1637650592821"
+              id="content1"
+              class="active"
+              alt=""
+            />
+          </a>
+          <a href="disposal.html">
+            <img
+              src="https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148%2F%D0%91%D0%B0%D0%BD%D0%BD%D0%B5%D1%801.png?v=1637384961875"
+              id="content2"
+              alt=""
+            />
+          </a>
+          <a href="buyup.html">
+            <img
+              src="https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148%2F%D0%91%D0%B0%D0%BD%D0%BD%D0%B5%D1%803.png?v=1637648441460"
+              id="content3"
+              alt=""
+            />
+          </a>
+          <a href="laptop.html">
+            <img
+              src="https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148%2F%D0%91%D0%B0%D0%BD%D0%BD%D0%B5%D1%802.png?v=1637390966880"
+              id="content4"
+              alt=""
+            />
+          </a>
+          <a href="mobile.html">
+            <img
+              src="https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148%2F%D0%91%D0%B0%D0%BD%D0%BD%D0%B5%D1%804.png?v=1637660819270"
+              id="content5"
+              alt=""
+            />
+          </a>
+          <a href="display.html">
+            <img
+              src="https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148%2F%D0%91%D0%B0%D0%BD%D0%BD%D0%B5%D1%805.png?v=1637682153310"
+              id="content6"
+              alt=""
+            />
+          </a>
+          <a href="comp.html">
+            <img
+              src="https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148/%D0%91%D0%B0%D0%BD%D0%BD%D0%B5%D1%806.png?v=1640199395088"
+              id="content7"
+              alt=""
+            />
+          </a>
+        </div>
+        <button class="left" onclick="left()">❮</button>
+        <button class="right" onclick="right()">❯</button>
+        <div class="navbtn">
+          <button onclick="sli(1)"></button>
+          <button onclick="sli(2)"></button>
+          <button onclick="sli(3)"></button>
+          <button onclick="sli(4)"></button>
+          <button onclick="sli(5)"></button>
+          <button onclick="sli(6)"></button>
+          <button onclick="sli(7)"></button>
+        </div>
+      </div>
+    </main>
+    <div class="cat">
+      <h2>Категории</h2>
+      <div class="_cat">
+        <a href="#">
+          <div class="cat_1">
+            <div class="_cat1_"></div>
+            Ноутбуки и компьютеры
+          </div>
+        </a>
+        <a href="#">
+          <div class="cat_2">
+            <div class="_cat2_"></div>
+            Смартфоны и планшеты
+          </div>
+        </a>
+        <a href="#">
+          <div class="cat_3">
+            <div class="_cat3_"></div>
+            Телевизоры и мониторы
+          </div>
+        </a>
+        <a href="#">
+          <div class="cat_4">
+            <div class="_cat4_"></div>
+            Батарейки
+          </div>
+        </a>
+        <a href="#">
+          <div class="cat_5">
+            <div class="_cat5_"></div>
+            Колонки
+          </div>
+        </a>
+        <a href="#">
+          <div class="cat_6">
+            <div class="_cat6_"></div>
+            Повербанки
+          </div>
+        </a>
+        <a href="#">
+          <div class="cat_7">
+            <div class="_cat7_"></div>
+            Наушники
+          </div>
+        </a>
+        <a href="#">
+          <div class="cat_8">
+            <div class="_cat8_"></div>
+            Зарядки
+          </div>
+        </a>
+        <a href="#">
+          <div class="cat_9">
+            <div class="_cat9_"></div>
+            Шнуры
+          </div>
+        </a>
+        <a href="#">
+          <div class="cat_10">
+            <div class="_cat10_"></div>
+            Флешки
+          </div>
+        </a>
+        <a href="#">
+          <div class="cat_11">
+            <div class="_cat11_"></div>
+            Принтеры
+          </div>
+        </a>
+        <a href="#">
+          <div class="cat_12">
+            <div class="_cat12_"></div>
+            Кабели
+          </div>
+        </a>
+        <a href="#">
+          <div class="cat_13">
+            <div class="_cat13_"></div>
+            Бытовая техника
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="goods">
+      <a href="gd.html"><h2 class="gds">Интересные товары</h2></a>
+      <a href="gd.html#gd1">
+        <div class="gd_1">
+          <div class="gd_1_img"></div>
+        </div>
+      </a>
+      <br />
+      <a href="gd.html#gd2">
+        <div class="gd_2">
+          <div class="gd_2_img"></div>
+        </div>
+      </a>
+      <br />
+      <a href="gd.html#gd8">
+        <div class="gd_3">
+          <div class="gd_3_img"></div>
+        </div>
+      </a>
+      <br>
+      <a href="gd.html#gd4">
+        <div class="gd_4">
+          <div class="gd_4_img"></div>
+        </div>
+      </a>
+      <br />
+      <a href="gd.html#gd5">
+        <div class="gd_5">
+          <div class="gd_5_img"></div>
+        </div>
+      </a>
+      <br />
+      <a href="gd.html#gd6">
+        <div class="gd_6">
+          <div class="gd_6_img"></div>
+        </div>
+      </a>
+      <br />
+      <a href="gd.html#gd7">
+        <div class="gd_7">
+          <div class="gd_7_img"></div>
+        </div>
+      </a>
+    </div>
+    <div class="equipment" id="nav">
+      <a class="a" href="appliances.html">
+        <div class="appliances">
+          <div class="a-svg1" id="svg-equipment"></div>
+          Бытовая техника
+        </div>
+      </a>
+      <a class="a" href="laptop.html">
+        <div class="laptop">
+          <div class="a-svg2" id="svg-equipment"></div>
+          Ноутбуки
+        </div>
+      </a>
+      <a class="a" href="comp.html">
+        <div class="comp">
+          <div class="a-svg3" id="svg-equipment"></div>
+          Компьютеры
+        </div>
+      </a>
+      <a class="a" href="mobile.html">
+        <div class="mobile">
+          <div class="a-svg4" id="svg-equipment"></div>
+          Телефоны
+        </div>
+      </a>
+      <a class="a" href="tablet.html">
+        <div class="tablet">
+          <div class="a-svg5" id="svg-equipment"></div>
+          Планшеты
+        </div>
+      </a>
+      <a class="a" href="display.html">
+        <div class="display">
+          <div class="a-svg6" id="svg-equipment"></div>
+          Мониторы
+        </div>
+      </a>
+      <a class="a" href="tv.html">
+        <div class="tv">
+          <div class="a-svg7" id="svg-equipment"></div>
+          Телевизоры
+        </div>
+      </a>
+      <a class="a" href="printer.html">
+        <div class="printer">
+          <div class="a-svg8" id="svg-equipment"></div>
+          Принтеры
+        </div>
+      </a>
+      <a class="a" href="battery.html">
+        <div class="battery">
+          <div class="a-svg9" id="svg-equipment"></div>
+          Повербанки
+        </div>
+      </a>
+    </div>
+    <script src="assets/index/js/slider.js"></script>
+    <script src="assets/index/js/copy.js"></script>
+  </body>
+</html>

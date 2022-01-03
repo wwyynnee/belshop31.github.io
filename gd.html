@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f90" />
+    <meta
+      name="description"
+      content="Интернет-магазин электроники в Белгороде"
+    />
+    <link
+      rel="canonical"
+      href="https://www.belshop31.tk"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148%2Ficon.png?v=1636788385830"
+    />
+    <link
+      rel="icon"
+      href="https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148%2Ficon.png?v=1636788385830"
+      type="image/png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css"
+    />
+    <link rel="stylesheet" href="assets/index/css/section.css" />
+    <link rel="stylesheet" href="assets/index/css/header.css" />
+    <link rel="stylesheet" href="assets/index/css/style.css" />
+    <link rel="stylesheet" href="assets/other/gd/css/background.css" />
+    <link rel="stylesheet" href="assets/other/gd/css/nav.css" />
+    <link rel="stylesheet" href="assets/other/gd/css/goods.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
+    <script data-ad-client="ca-pub-7868406219201402" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <title>Belshop31</title>
+  </head>
+  <body>
+    <div class="web">
+      <header class="panel">
+        <a href="index.html"><div class="shop"></div></a>
+        <div class="phone">
+          <div class="phonesvg" onclick="copy()">
+            <button class="svg"></button>
+            <p id="tel">+79103684960</p>
+          </div>
+        </div>
+        <a href="signin.html"><div class="sign">Войти</div></a>
+      </header>
+      <section class="service">
+        <div class="catalog" id="catalog" onclick="opennav()">Каталог ▾</div>
+        <div class="catalog2" id="catalog2" onclick="closenav()">Каталог ▾</div>
+        <a href="gd.html"><div class="gd">б/у товары</div></a>
+        <a href="disposal.html"><div class="disposal">Услуги</div></a>
+        <a href="https://forms.gle/vWH6J9tzSueJAwx87" target="_blank"><div class="buyup">Скупка</div></a>
+      </section>
+    </div>
+    <div class="bg" id="bg">
+      <div class="h1">
+        <h1>Интересные товары</h1>
+      </div>
+      <a href="#menu" class="scroll_svg_padding"><div class="scroll_svg"></div></a>
+    </div>
+    <div class="gddiv">
+      <nav id="menu">
+        <h2><span class="v">В</span><span class="ce">се</span> товары</h2>
+        <ul>
+          <a href="#gd1">
+            <div class="li">
+              <li>Монитор LG</li>
+            </div>
+          </a>
+          <a href="#gd2">
+            <div class="li">
+              <li>Компьютер LG</li>
+            </div>
+          </a>
+          <a href="#gd3">
+            <div class="li">
+              <li>Телефон Xiaomi</li>
+            </div>
+          </a>
+          <a href="#gd4">
+            <div class="li">
+              <li>Планшет Skytiger</li>
+            </div>
+          </a>
+          <a href="#gd5">
+            <div class="li">
+              <li>Телевизор LG</li>
+            </div>
+          </a>
+          <a href="#gd6">
+            <div class="li">
+              <li>Телевизор Samsung</li>
+            </div>
+          </a>
+          <a href="#gd7">
+            <div class="li">
+              <li>Системный блок</li>
+            </div>
+          </a>
+          <a href="#gd8">
+            <div class="li">
+              <li>Телефон Digma</li>
+            </div>
+          </a>
+        </ul>
+      </nav>
+      <main class="goods">
+        <div class="_gd1">
+          <a href="javascript:void(0);" id="gd1">
+            <img src="https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148%2Fgb_1.png?v=1638034622635" alt="" class="gd_1" />
+            <button>Купить</button>
+          </a>
+          <a href="javascript:void(0);" id="gd2">
+            <img src="https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148%2Fgb_2.png?v=1638034626004" alt="" class="gd_2" />
+            <button>Купить</button>
+          </a>
+          <a href="javascript:void(0);" id="gd3">
+            <img src="https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148%2Fgb_3.png?v=1638036703624" alt="" class="gd_3" />
+          </a>
+          <a href="javascript:void(0);" id="gd4">
+            <img src="https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148%2Fgb_4.png?v=1638040556699" alt="" class="gd_4" />
+            <button>Купить</button>
+          </a>
+          <a id="gd5">
+            <img src="https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148%2Fgb_5.png?v=1638040589215" alt="" class="gd_5" />
+            <button>Купить</button>
+          </a>
+          <a href="javascript:void(0);" id="gd6">
+            <img src="https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148%2Fgb_6.png?v=1638081368813" alt="" class="gd_6" />
+            <button>Купить</button>
+          </a>
+          <a href="javascript:void(0);" id="gd7">
+            <img src="https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148%2Fgb_7.png?v=1638080776407" alt="" class="gd_7" />
+            <button>Купить</button>
+          </a>
+          <a href="javascript:void(0);" id="gd8">
+            <img src="https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148/gd_8.png?v=1640790438615" alt="" class="gd_8" />
+            <button>Купить</button>
+          </a>
+        </div>
+      </main>
+    </div>
+    <script src="assets/other/gd/js/menu.js"></script>
+    <script src="assets/other/gd/js/buy.js"></script>
+    <script src="assets/index/js/copy.js"></script>
+  </body>
+</html>
