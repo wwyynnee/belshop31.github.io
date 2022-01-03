@@ -1,0 +1,141 @@
+.panel {
+  background-color: white;
+  font-size: 25px;
+  height: 2.3em;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 99999999;
+}
+.shop {
+  background: url(https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148%2Fbelshop31.png?v=1636876647525);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 40px;
+  width: 170px;
+  margin-left: 15%;
+}
+.shop:hover, .phonesvg:hover {
+  opacity: 0.7;
+}
+.phonesvg {
+  position: absolute;
+  top: 5px;
+  left: 15%;
+}
+.svg {
+  height: 50px;
+  width: 50px;
+  background: url(../svg/phone.svg);
+}
+/*.phonesvg:hover #tel {
+  display: block;
+}*/
+#tel {
+  position: absolute;
+  top: -15px;
+  left: 50px;
+  display: none;
+}
+.sign {
+  padding: 0.45em;
+  border-radius: 15px;
+  background-image: linear-gradient(45deg, #f5e156 33%, #eb866d 66%, #e45079);
+  background-position: 100% 0;
+  background-size: 200% 200%;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  transition: .5s;
+  position: relative;
+  right: 55%;
+}
+.sign:hover {
+  background-position: 0 0;
+}
+@media only screen and (max-width: 320px) {
+  .shop {
+    margin-left: 0;
+    position: absolute;
+    left: 0.5em;
+    top: 10px;
+  }
+  .sign {
+    text-align: center;
+    width: 75px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    right: 1em;
+  }
+  .phonesvg {
+    left: 52.5%;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 424px) {
+  .shop {
+    margin-left: 0;
+    position: absolute;
+    left: 1em;
+    top: 10px;
+  }
+  .sign {
+    text-align: center;
+    width: 75px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    right: 2em;
+  }
+  .phonesvg {
+    left: 50%;
+  }
+}
+@media only screen and (min-width: 425px) and (max-width: 480px) {
+  .phonesvg {
+    left: 45%;
+  }
+}
+@media only screen and (min-width: 675px) and (max-width: 1023px) {
+  .phonesvg {
+    left: 25%;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1325px) {
+  .phonesvg {
+    left: 18.5%;
+  }
+}
+@media only screen and (min-width: 1326px) and (max-width: 1767px) {
+  .phonesvg {
+    left: 15%;
+  }
+}
+@media only screen and (min-width: 1768px) and (max-width: 1823px) {
+  .phonesvg {
+    left: 12%;
+  }
+}
+@media only screen and (min-width: 1824px) {
+  .shop {
+    position: absolute;
+    height: 7vh;
+    width: 170px;
+    top: 12.5px;
+    left: 1em;
+    margin-left: 0;
+  }
+  .panel {
+    height: 7.5vh;
+  }
+  .phonesvg {
+    left: 8.5%;
+    top: 9px;
+  }
+  .sign {
+    font-size: 1em;
+    border-radius: 25px;
+  }
+}

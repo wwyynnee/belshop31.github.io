@@ -1,0 +1,188 @@
+.service {
+  background-color: #fff000;
+  font-size: 25px;
+  display: flex;
+  height: 1.7em;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 57px;
+  z-index: 8787;
+}
+.catalog,
+.catalog2,
+.disposal,
+.buyup,
+.gd {
+  color: black;
+  padding-right: 4.5em;
+  padding-left: 4.5em;
+}
+.catalog, .contact, .catalog2 {
+  cursor: pointer;
+}
+.catalog2 {
+  display: none;
+}
+@media only screen and (max-width: 320px) {
+  .catalog,
+  .catalog2,
+  .disposal,
+  .buyup,
+  .gd {
+    position: absolute;
+    padding: 0;
+    width: 130px;
+    text-align: center;
+  }
+  .catalog, 
+  .catalog2,
+  .gd {
+    display: none;
+  }
+  .disposal {
+    left: 8vw;
+    top: 5px;
+  }
+  .buyup {
+    right: 8vw;
+    top: 5px;
+  }
+  .service {
+    display: block;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 424px) {
+  .catalog,
+  .catalog2,
+  .disposal,
+  .buyup,
+  .gd {
+    position: absolute;
+    padding: 0;
+    width: 130px;
+    text-align: center;
+  }
+  .catalog, 
+  .catalog2,
+  .gd {
+    display: none;
+  }
+  .disposal {
+    left: 10vw;
+    top: 5px;
+  }
+  .buyup {
+    right: 10vw;
+    top: 5px;
+  }
+  .service {
+    display: block;
+  }
+}
+@media only screen and (min-width: 425px) and (max-width: 480px) {
+  .catalog,
+  .catalog2,
+  .disposal,
+  .buyup,
+  .gd {
+    position: absolute;
+    padding: 0;
+    width: 130px;
+    text-align: center;
+  }
+  .catalog, 
+  .catalog2,
+  .gd {
+    display: none;
+  }
+  .disposal {
+    left: 12.5vw;
+    top: 5px;
+  }
+  .buyup {
+    right: 12.5vw;
+    top: 5px;
+  }
+  .service {
+    display: block;
+  }
+}
+@media only screen and (min-width: 675px) and (max-width: 1023px) {
+  .catalog,
+  .catalog2,
+  .disposal,
+  .buyup,
+  .gd {
+    position: absolute;
+    padding: 0;
+    width: 130px;
+    text-align: center;
+  }
+  .catalog, 
+  .catalog2 {
+    display: none;
+  }
+  .gd {
+    left: 40vw;
+    top: 5px;
+  }
+  .disposal {
+    left: 10vw;
+    top: 5px;
+  }
+  .buyup {
+    right: 10vw;
+    top: 5px;
+  }
+  .service {
+    display: block;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1325px) {
+  .catalog,
+  .catalog2,
+  .disposal,
+  .buyup,
+  .gd {
+    position: absolute;
+    padding: 0;
+    width: 130px;
+    text-align: center;
+  }
+  .catalog, .catalog2 {
+    left: 5vw;
+    top: 5px;
+  }
+  .gd {
+    left: 30vw;
+    top: 5px;
+  }
+  .disposal {
+    right: 30vw;
+    top: 5px;
+  }
+  .buyup {
+    right: 5vw;
+    top: 5px;
+  }
+  .service {
+    display: block;
+  }
+}
+@media only screen and (min-width: 1824px) {
+  .service {
+    font-size: 2em;
+    height: 2.5em;
+    top: 2.5vw;
+  }
+  .catalog,
+  .catalog2,
+  .disposal,
+  .buyup,
+  .gd {
+    position: relative;
+    top: 5px;
+  }
+}

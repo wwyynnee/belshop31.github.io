@@ -1,0 +1,353 @@
+.cat {
+  display: flex;
+  width: 100%;
+  color: black;
+  text-align: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+._cat {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cat_1,
+.cat_2,
+.cat_3,
+.cat_4,
+.cat_5,
+.cat_6,
+.cat_7,
+.cat_8,
+.cat_9,
+.cat_10,
+.cat_11,
+.cat_12,
+.cat_13 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 5px 25px rgb(30 31 13 / 12%);
+  background-color: white;
+  color: black;
+  height: 126px;
+  width: 237px;
+  margin-right: 10px;
+  text-align: center;
+  padding: 10px;
+}
+.cat_1:hover,
+.cat_2:hover,
+.cat_3:hover,
+.cat_4:hover,
+.cat_5:hover,
+.cat_6:hover,
+.cat_7:hover,
+.cat_8:hover,
+.cat_9:hover,
+.cat_10:hover,
+.cat_11:hover,
+.cat_12:hover,
+.cat_13:hover {
+  color: #fff000;
+  transition-delay: 0.03s;
+}
+._cat1_ {
+  background: url("https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148/laptop.png?v=1640345992125");
+}
+._cat2_ {
+  background: url("https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148/your-help.png?v=1640346706141");
+}
+._cat3_ {
+  background: url("https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148/monitor.png?v=1640346954520");
+}
+._cat4_ {
+  background: url("https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148/battery.png?v=1640352808337");
+}
+._cat5_ {
+  background: url("https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148/portable-speaker2.png?v=1640348528431");
+}
+._cat6_ {
+  background: url("https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148/usb-2.png?v=1640353791576");
+}
+._cat7_ {
+  background: url("https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148/headphones.png?v=1640351424860");
+}
+._cat8_ {
+  background: url("https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148/download.png?v=1640352216727");
+}
+._cat9_ {
+  background: url("https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148/usb.png?v=1640352540195");
+}
+._cat10_ {
+  background: url("https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148/usb-memory-stick.png?v=1640352921887");
+}
+._cat11_ {
+  background: url("https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148/label-printer.png?v=1640353160321");
+}
+._cat12_ {
+  background: url("https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148/network-cable.png?v=1640352639917");
+}
+._cat13_ {
+  background: url("https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148/appliances.png?v=1640353461649");
+}
+._cat1_,
+._cat2_,
+._cat3_,
+._cat4_,
+._cat5_,
+._cat6_,
+._cat7_,
+._cat8_,
+._cat9_,
+._cat10_,
+._cat11_,
+._cat12_,
+._cat13_ {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+}
+@media only screen and (max-width: 320px) {
+  .cat {
+    align-items: center;
+    position: absolute;
+    top: 14em;
+  }
+  .cat_1,
+  .cat_2,
+  .cat_3,
+  .cat_4,
+  .cat_5,
+  .cat_6,
+  .cat_7,
+  .cat_8,
+  .cat_9,
+  .cat_10,
+  .cat_11,
+  .cat_12,
+  .cat_13 {
+    margin: 0 4vw 3vw 4vw;
+    height: 10.5em;
+    width: 90vw;
+    text-align: center;
+  }
+  h2 {
+    padding: 3vw 0 3vw 0;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 424px) {
+  .cat {
+    align-items: center;
+    position: absolute;
+    top: 15.25em;
+  }
+  ._cat {
+    align-items: center;
+  }
+  .cat_1,
+  .cat_2,
+  .cat_3,
+  .cat_4,
+  .cat_5,
+  .cat_6,
+  .cat_7,
+  .cat_8,
+  .cat_9,
+  .cat_10,
+  .cat_11,
+  .cat_12,
+  .cat_13 {
+    margin: 0 5vw 3vw 5vw;
+    height: 10.5em;
+    width: 90vw;
+    text-align: center;
+  }
+  h2 {
+    padding: 3vw 0 3vw 0;
+  }
+}
+@media only screen and (min-width: 425px) and (max-width: 480px) {
+  .cat {
+    align-items: center;
+    position: absolute;
+    top: 16.5em;
+  }
+  ._cat {
+    align-items: center;
+  }
+  .cat_1,
+  .cat_2,
+  .cat_3,
+  .cat_4,
+  .cat_5,
+  .cat_6,
+  .cat_7,
+  .cat_8,
+  .cat_9,
+  .cat_10,
+  .cat_11,
+  .cat_12,
+  .cat_13 {
+    margin: 0 5vw 3vw 5vw;
+    height: 10.5em;
+    width: 90vw;
+    text-align: center;
+  }
+  h2 {
+    padding: 3vw 0 3vw 0;
+  }
+}
+@media only screen and (min-width: 675px) and (max-width: 1023px) {
+  .cat {
+    position: absolute;
+    top: 24.75em;
+    width: 94vw;
+    margin: 0 3vw 0 3vw;
+  }
+  .cat_1,
+  .cat_2,
+  .cat_3,
+  .cat_4,
+  .cat_5,
+  .cat_6,
+  .cat_7,
+  .cat_8,
+  .cat_9,
+  .cat_10,
+  .cat_11,
+  .cat_12,
+  .cat_13 {
+    margin: 0 1.5vw 3vw 1.5vw;
+    height: 10.5em;
+    width: 40vw;
+    text-align: center;
+  }
+  h2 {
+    padding: 3vw 0 3vw 0;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1325px) {
+  .cat {
+    position: absolute;
+    top: 48vw;
+    width: 94vw;
+    margin: 0 3vw 0 3vw;
+  }
+  .cat_1,
+  .cat_2,
+  .cat_3,
+  .cat_4,
+  .cat_5,
+  .cat_6,
+  .cat_7,
+  .cat_8,
+  .cat_9,
+  .cat_10,
+  .cat_11,
+  .cat_12,
+  .cat_13 {
+    margin: 0 1.5vw 3vw 1.5vw;
+    height: 10.5em;
+    width: 25vw;
+    text-align: center;
+  }
+  h2 {
+    padding: 2vw 0 2vw 0;
+  }
+}
+@media only screen and (min-width: 1326px) and (max-width: 1767px) {
+  .cat {
+    position: absolute;
+    top: 46vw;
+    width: 94vw;
+    margin: 0 3vw 0 3vw;
+  }
+  ._cat {
+    justify-content: center;
+  }
+  .cat_1,
+  .cat_2,
+  .cat_3,
+  .cat_4,
+  .cat_5,
+  .cat_6,
+  .cat_7,
+  .cat_8,
+  .cat_9,
+  .cat_10,
+  .cat_11,
+  .cat_12,
+  .cat_13 {
+    text-align: center;
+    margin-bottom: 1vw;
+  }
+  h2 {
+    padding: 1.5vw 0 1.5vw 0;
+  }
+}
+@media only screen and (min-width: 1768px) and (max-width: 1823px) {
+  .cat {
+    position: absolute;
+    top: 44vw;
+    width: 96vw;
+    margin: 0 2vw 0 2vw;
+  }
+  .cat_1,
+  .cat_2,
+  .cat_3,
+  .cat_4,
+  .cat_5,
+  .cat_6,
+  .cat_7,
+  .cat_8,
+  .cat_9,
+  .cat_10,
+  .cat_11,
+  .cat_12,
+  .cat_13 {
+    margin: 0 1vw 2vw 1vw;
+    height: 10.5em;
+    width: 17vw;
+    text-align: center;
+  }
+  h2 {
+    padding: 2vw 0 2vw 0;
+  }
+}
+@media only screen and (min-width: 1824px) {
+  .cat {
+    position: absolute;
+    top: 44vw;
+    width: 96vw;
+    margin: 0 2vw 0 2vw;
+  }
+  .cat_1,
+  .cat_2,
+  .cat_3,
+  .cat_4,
+  .cat_5,
+  .cat_6,
+  .cat_7,
+  .cat_8,
+  .cat_9,
+  .cat_10,
+  .cat_11,
+  .cat_12,
+  .cat_13 {
+    margin: 0 1vw 2vw 1vw;
+    height: 10vw;
+    width: 17vw;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 3em;
+    padding: 2vw 0 2vw 0;
+  }
+}

@@ -1,0 +1,67 @@
+#nav {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100px;
+  height: 100%;
+  width: 0;
+  background: url(https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148%2Fbackground.png?v=1636788155685);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+  transition: 0.5s;
+  overflow-x: hidden;
+  cursor: pointer;
+  font-size: 31px;
+}
+.appliances, .laptop, .comp, .mobile, .tablet, .display, .tv, .printer, .battery {
+  padding: 2% 5% 2% 2%;
+  color: black;
+  display: flex;
+}
+.appliances:hover,
+.laptop:hover,
+.comp:hover,
+.mobile:hover,
+.tablet:hover,
+.display:hover,
+.tv:hover,
+.printer:hover,
+.battery:hover {
+  box-shadow: 1px 1px 5px 0 black;
+}
+.appliances {
+  margin-top: 0.5%;
+}
+#svg-equipment {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+.a-svg1 {
+  background: url(https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148%2Felectrosity.png?v=1637598630683);
+}
+.a-svg2 {
+  background: url(https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148%2Flaptop.png?v=1637598641862);
+}
+.a-svg3 {
+  background: url(https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148%2Fcomputer.png?v=1637598630510);
+}
+.a-svg4 {
+  background: url(https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148%2Fphone.png?v=1637598630510);
+}
+.a-svg5 {
+  background: url(https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148%2Ftablet.png?v=1637598630510);
+}
+.a-svg6 {
+  background: url(https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148%2Fdisplay.png?v=1637598890680);
+}
+.a-svg7 {
+  background: url(https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148%2Ftv.png?v=1637598895384);
+}
+.a-svg8 {
+  background: url(https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148%2Fprinter.png?v=1637597888670);
+}
+.a-svg9 {
+  background: url(https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148%2Fbattery.png?v=1637599755137);
+}

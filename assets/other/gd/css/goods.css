@@ -1,0 +1,148 @@
+.goods {
+  width: 100%;
+}
+.goods div a:hover {
+  box-shadow: 1px 1px 5px 0 rgba(16, 24, 30, 0.2);;
+}
+._gd1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+#gd1, #gd2, #gd3, #gd4, #gd5, #gd6, #gd7, #gd8 {
+  display: flex;
+  margin: 25px;
+  width: 500px;
+  height: 300px;
+  flex-direction: column;
+  border-radius: 10px;
+}
+#gd1:hover, #gd2:hover, #gd4:hover, #gd5:hover, #gd6:hover, #gd7:hover, #gd8:hover {
+  box-shadow: 1px 1px 5px 0 grey;
+}
+img {
+  width: 500px;
+  height: 300px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+a button {
+  border: solid 1px #5e17eb;
+  font-size: 1.5em;
+  color: #5e17eb;
+  border-radius: 10px;
+}
+a button:hover {
+  background: #5e17eb;
+  color: white;
+}
+.buye {
+  text-align: center;
+  opacity: 1;
+  color: black;
+}
+.pr {
+  display: flex;
+  justify-content: center;
+}
+a .pr {
+  color: black;
+}
+._pr {
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  left: 36%;
+  top: 55em;
+  z-index: 2;
+}
+#gd3 {
+  opacity: 0.5;
+}
+#gd3 button:hover {
+  background: none !important;
+  color: #5e17eb !important;
+}
+#gd3::after {
+  text-align: center;
+  content: "Продано";
+  color: black;
+}
+@media only screen and (min-width: 320px) and (max-width: 424px) {
+  .goods {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100vw;
+    top: 205vh;
+  }
+  #gd1, #gd2, #gd3, #gd4, #gd5, #gd6, #gd7, #gd8 {
+    margin: 2.5vw;
+    width: 95vw;
+    height: 60%;
+  }
+  img {
+    width: 95vw;
+    height: 60%;
+  }
+}
+@media only screen and (min-width: 425px) and (max-width: 480px) {
+  .goods {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100vw;
+    top: 205vh;
+  }
+  #gd1, #gd2, #gd3, #gd4, #gd5, #gd6, #gd7, #gd8 {
+    margin: 2.5vw;
+    width: 95vw;
+    height: 60%;
+  }
+  img {
+    width: 95vw;
+    height: 60%;
+  }
+}
+@media only screen and (min-width: 665px) and (max-width: 1023px) {
+  .goods {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100vw;
+    top: 235vh;
+  }
+  #gd1, #gd2, #gd3, #gd4, #gd5, #gd6, #gd7, #gd8 {
+    margin: 2.5vw;
+    width: 95vw;
+    height: 60%;
+  }
+  img {
+    width: 95vw;
+    height: 60%;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1325px) {
+  #gd1, #gd2, #gd3, #gd4, #gd5, #gd6, #gd7, #gd8 {
+    margin: 2.5vw;
+    width: 32.5vw;
+    height: 60%;
+  }
+  .gd_1, .gd_2, .gd_3, .gd_4, .gd_5, .gd_6, .gd_7, .gd_8 {
+    width: 32.5vw;
+  }
+  img {
+    width: 95vw;
+    height: 60%;
+  }
+  ._gd1 {
+    justify-content: flex-end;
+  }
+}
+@media only screen and (min-width: 1326px) and (max-width: 1824px) {
+  ._gd1 {
+    justify-content: flex-end;
+  }
+}

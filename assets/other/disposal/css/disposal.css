@@ -1,0 +1,278 @@
+body {
+  max-height: 1076px;
+  max-width: 1480px;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  height: 0;
+}
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  cursor: default;
+  color: black;
+}
+.bar {
+  background: -webkit-linear-gradient(200deg, black, white);
+  position: fixed;
+  height: 5px;
+  width: 100%;
+  z-index: 2;
+  top: 0;
+}
+.panel {
+  box-shadow: 0px 5px 10px 0 black;
+  background: url(https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148%2Fbackground.png?v=1636788155685);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  font-size: 25px;
+  height: 1.6em;
+  width: 100%;
+  z-index: 1;
+  top: 5px;
+}
+.shop {
+  background: url(https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148%2Fbelshop31.png?v=1636788233818);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  height: 41px;
+  width: 170px;
+  top: 0;
+}
+.belgorod {
+  position: absolute;
+  margin: 5px;
+  left: 20%;
+  top: 0;
+}
+.login,
+.sign {
+  text-decoration: none;
+  position: absolute;
+  cursor: default;
+  color: black;
+  top: 15%;
+}
+.login {
+  right: 20%;
+}
+.sign {
+  right: 5%;
+}
+.login:hover,
+.sign:hover {
+  opacity: 0.5;
+}
+.fone {
+  background: url(https://cdn.glitch.me/ba1c9aa4-597c-4fde-9fb1-a844dd8a5148%2Fbackground4.jpg?v=1636788143522);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  height: 350px;
+  width: 100%;
+  right: 0;
+  top: 0;
+}
+.background0 {
+  background-color: #fafafa;
+  position: absolute;
+  height: 300px;
+  width: 80%;
+  top: 350px;
+}
+.computer {
+  color: rgb(0, 151, 255);
+  position: absolute;
+  cursor: default;
+  font-size: 50px;
+  right: 5%;
+  top: 50px;
+}
+.comp {
+  position: absolute;
+  height: 250px;
+  width: 350px;
+  top: 20px;
+  left: 20px;
+}
+.background1 {
+  background-color: black;
+  position: absolute;
+  height: 300px;
+  width: 80%;
+  top: 650px;
+}
+.clean {
+  color: rgb(0, 151, 255);
+  position: absolute;
+  cursor: default;
+  font-size: 50px;
+  right: 3%;
+  top: 3%;
+}
+.cleanpng {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  top: 20px;
+  left: 20px;
+}
+.background2 {
+  background-color: #fafafa;
+  position: absolute;
+  height: 300px;
+  width: 80%;
+  top: 950px;
+}
+.fault {
+  color: rgb(0, 151, 255);
+  position: absolute;
+  cursor: default;
+  font-size: 50px;
+  top: 50px;
+  right: 3%;
+}
+.diagnosis {
+  position: absolute;
+  height: 250px;
+  width: 350px;
+  left: 20px;
+  top: 20px;
+}
+.background3 {
+  background-color: black;
+  position: absolute;
+  height: 300px;
+  width: 80%;
+  top: 1250px;
+}
+.install {
+  color: rgb(0, 151, 255);
+  position: absolute;
+  cursor: default;
+  font-size: 50px;
+  top: 45px;
+  right: 5%;
+}
+.programs {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  top: 20px;
+  left: 20px;
+}
+.background4 {
+  background-color: #fafafa;
+  position: absolute;
+  height: 300px;
+  width: 80%;
+  top: 1550px;
+}
+.install2 {
+  color: rgb(0, 151, 255);
+  position: absolute;
+  cursor: default;
+  font-size: 50px;
+  top: 50px;
+  right: 5%;
+}
+.windows {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  top: 20px;
+  left: 20px;
+}
+.background5 {
+  background-color: black;
+  position: absolute;
+  height: 300px;
+  width: 80%;
+  top: 1850px;
+}
+.replace {
+  color: rgb(0, 151, 255);
+  position: absolute;
+  cursor: default;
+  font-size: 50px;
+  top: 50px;
+  right: 5%;
+}
+.keyboard {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  top: 20px;
+  left: 20px;
+}
+.background6 {
+  background-color: #fafafa;
+  position: absolute;
+  height: 300px;
+  width: 80%;
+  top: 2150px;
+}
+.restore {
+  color: rgb(0, 151, 255);
+  position: absolute;
+  cursor: default;
+  font-size: 50px;
+  top: 50px;
+  right: 5%;
+}
+.files {
+  position: absolute;
+  height: 250px;
+  width: 200px;
+  top: 20px;
+  left: 20px;
+}
+.background7 {
+  background-color: black;
+  position: absolute;
+  height: 300px;
+  width: 80%;
+  top: 2450px;
+}
+.delete {
+  color: rgb(0, 151, 255);
+  position: absolute;
+  cursor: default;
+  font-size: 50px;
+  top: 50px;
+  right: 5%;
+}
+.troubleshooting {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  top: 20px;
+  left: 20px;
+}
+.ad1 {
+  background-color: rgb(114, 113, 113);
+  position: absolute;
+  height: 400px;
+  width: 15%;
+  top: 700px;
+  right: 0;
+}
+.ad2 {
+  background-color: rgb(114, 113, 113);
+  position: absolute;
+  height: 400px;
+  width: 15%;
+  top: 1300px;
+  right: 0;
+}
+.ad3 {
+  background-color: rgb(114, 113, 113);
+  position: absolute;
+  height: 400px;
+  width: 15%;
+  top: 2200px;
+  right: 0;
+}
